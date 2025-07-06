@@ -9,3 +9,6 @@ Style your Day 1 HTML page using CSS: add background color and change the text c
 
 Q4
 Create a CSS class .card that adds a border, padding, and shadow. Apply it to a div with some text.
+
+Q5
+Write a script that shows a greeting using alert().
