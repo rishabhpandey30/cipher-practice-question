@@ -6,3 +6,6 @@ Add a form with input fields for name and email, and a submit button to the page
 
 Q3
 Style your Day 1 HTML page using CSS: add background color and change the text color of the heading.
+
+Q4
+Create a CSS class .card that adds a border, padding, and shadow. Apply it to a div with some text.
