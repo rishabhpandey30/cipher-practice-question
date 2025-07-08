@@ -24,3 +24,18 @@ Add an input field and button. When the button is clicked, update a tag to show 
 
 Q 9
 ⁠Use parentNode, childNodes, or nextSibling to log different parts of the DOM.
+
+Q 10
+Create a list (ul) and add a button that removes the adds an item to the list when it is clicked using DOM methods.
+
+Q 11
+Create a Person object using a constructor function with name and age properties.
+
+Q 12
+⁠Convert the constructor from the basic task to a JavaScript class, and add a method sayHello().
+
+Q 13
+Add a responsive  that scales on smaller screens using CSS.
+
+Q 14
+Use alt attributes on images and add aria-label to the form. Add media queries to the page

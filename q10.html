@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Question-10</title>
+</head>
+<body>
+
+  <h2>My List</h2>
+  <ul id="myList">
+    <li>Item 1</li>
+    <li>Item 2</li>
+  </ul>
+
+  <button onclick="addListItem()">Add Item</button>
+
+  <script>
+    let count = 3;
+
+    function addListItem() {
+      const ul = document.getElementById("myList");
+      const li = document.createElement("li");
+      li.textContent = "Item " + count;
+      ul.appendChild(li);
+      count++;
+    }
+  </script>
+
+</body>
+</html>
