@@ -12,3 +12,6 @@ Create a CSS class .card that adds a border, padding, and shadow. Apply it to a 
 
 Q5
 Write a script that shows a greeting using alert().
+
+Q 6
+Write a function using arrow syntax that takes two numbers and returns their sum.
