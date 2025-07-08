@@ -15,3 +15,12 @@ Write a script that shows a greeting using alert().
 
 Q 6
 Write a function using arrow syntax that takes two numbers and returns their sum.
+
+Q 7
+Write JavaScript to change the text of an element with id="message" when a button is clicked.
+
+Q 8
+Add an input field and button. When the button is clicked, update a tag to show the input text.
+
+Q 9
+⁠Use parentNode, childNodes, or nextSibling to log different parts of the DOM.

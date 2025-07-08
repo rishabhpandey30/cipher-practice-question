@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Question-9</title>
+</head>
+<body>
+
+  <div id="container">
+    <h2 id="title">Welcome</h2>
+    <p>This is a paragraph.</p>
+    <button>Click Me</button>
+  </div>
+
+  <script>
+    const titleElement = document.getElementById("title");
+
+    // Log parent node
+    console.log("Parent Node of title:", titleElement.parentNode);
+
+    // Log all child nodes of container
+    const container = document.getElementById("container");
+    console.log("Child Nodes of container:", container.childNodes);
+
+    // Log next sibling of title
+    console.log("Next Sibling of title:", titleElement.nextSibling); 
+
+    console.log("Next Element Sibling of title:", titleElement.nextElementSibling);
+  </script>
+
+</body>
+</html>

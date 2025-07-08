@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Question-8</title>
+</head>
+<body>
+
+  <input type="text" id="userInput" placeholder="Type something..." />
+  <button onclick="updateText()">Show Text</button>
+
+  <p id="output">Your text will appear here.</p>
+
+  <script>
+    function updateText() {
+      const input = document.getElementById("userInput").value;
+      document.getElementById("output").textContent = input;
+    }
+  </script>
+
+</body>
+</html>
