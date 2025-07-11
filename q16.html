@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive Flex Layout</title>
+  <style>
+    .container {
+      display: flex;
+      flex-direction: row; /* Horizontal layout by default */
+      gap: 10px;
+    }
+
+    .box {
+      padding: 20px;
+      background-color: lightblue;
+      border: 1px solid #000;
+      text-align: center;
+      flex: 1;
+    }
+
+    /* Media query for screens less than or equal to 600px */
+    @media (max-width: 600px) {
+      .container {
+        flex-direction: column; /* Change to vertical layout */
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+  </div>
+
+</body>
+</html>

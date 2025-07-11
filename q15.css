@@ -1,0 +1,10 @@
+body {
+  font-size: 18px; /* Default font size */
+}
+
+/* Media query for small screens */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px; /* Smaller font size for small screens */
+  }
+}

@@ -39,3 +39,9 @@ Add a responsive  that scales on smaller screens using CSS.
 
 Q 14
 Use alt attributes on images and add aria-label to the form. Add media queries to the page
+
+Q 15
+Use a media query to change font size on small screens.
+
+Q 16
+Change the layour of horizontal divs from horizontal to vertical using media queries and CSS
